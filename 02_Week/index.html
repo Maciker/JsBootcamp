@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Week 2 Challenges</title>
+    <nav>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="#tables">Tables</a></li>
+      </ol>
+    </nav>
+    <h1>My website</h1>
+    <h2>Week 2 challenges</h2>
+  </head>
+  <body>
+    <p>I'm a paragraph</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <dl>
+      <dt>Iker</dt>
+      <dd>A Human</dd>
+      <dt>R2D2</dt>
+      <dd>A robot</dd>
+    </dl>
+    <img  src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+         width="500" alt="Nice dog" title="Nice Dog"/>
+    <table id="tables">
+      <tr>
+        <th>Dog</th>
+        <th>Age</th>
+        <th>Picture</th>
+      </tr>
+      <tr>
+        <td>Roger</td>
+        <td>8</td>
+        <td>
+          <img
+            src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            width="200"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Syd</td>
+        <td>7</td>
+        <td>
+          <img
+            src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            width="200"
+          />
+        </td>
+      </tr>
+    </table>
+    <form action="/test" method="POST">
+      <p>
+        <label>Name</label>
+        <input name="name" required />
+      </p>
+      <p>
+        <label>Email address</label>
+        <input type="email" name="email" required />
+      </p>
+      <p>
+        <label>Blog URL</label>
+        <input type="url" required placeholder="https://www.example.com" />
+      </p>
+      <p>
+        <label>Notes</label>
+        <textarea rows="3" placeholder="Anything you want to tell us!"></textarea>
+      </p>
+      <p>
+        <button type="submit">Save</button>
+      </p>
+    </form>
+    <footer>
+      <p>&copy; 2021 Iker Macaya</p>
+    </footer>
+  </body>
+</html>
